@@ -37,15 +37,22 @@ class SuchiCulichi: ComidaProtocol {
     }
     
     func atacar() -> Double {
+        // Tirada para activar el modo "¿Sabes de quién soy?"
         sabesdeQuienSoy = Int.random(in: 1...100)
+  
+
         if sabesdeQuienSoy > 50 {
             let golpe = (poder * buchones) * 2
+            print("\(Nombre) ataca en modo ‘¿Sabes de quién soy?!’")
+            print("   ➜ Cálculo: poder \(poder) × buchones \(buchones) × 2 = +\(golpe) de daño.")
+            print(" ¡Nigiri tornado con respaldo de los buchones!")
             return golpe
-        } else{
-            let golpe = poder/2
+        } else {
+            let golpe = poder / 2
+            print("\(Nombre) ataca con corte preciso y frío control.")
+            print("   ➜ Cálculo: poder \(poder) ÷ 2 = +\(golpe) de daño.")
             return golpe
         }
-        
     }
     func recibirAtaque(valorAtaque: Double) {
         var recibido = valorAtaque
