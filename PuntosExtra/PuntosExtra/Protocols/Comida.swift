@@ -10,13 +10,13 @@ import Foundation
 
 protocol ComidaProtocol{
     var Nombre: String { get set }
-    var poder: Int { get set }
-    var energia:Int { get set }
-    var sazon: Int { get set }
-    var grasa : Int { get set }
+    var poder: Double { get set }
+    var energia:Double { get set }
+    var sazon: Double { get set }
+    var grasa : Double { get set }
     
-    func atacar() -> Int
-    func recibirAtaque(valorAtaque: Int)
+    func atacar() -> Double
+    func recibirAtaque(valorAtaque: Double)
     
     
 }
