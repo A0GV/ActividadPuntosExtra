@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    func Batalla(comidaA: ComidaProtocol, comidaB:ComidaProtocol){
+        
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -22,3 +25,11 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+
+
+
+
+
+
