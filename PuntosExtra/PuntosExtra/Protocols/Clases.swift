@@ -6,9 +6,15 @@
 //
 
 import Foundation
-class TacoLegendario {}
+class TacoLegendario: ComidaProtocol {
+    
+}
 
-class HamburguesaSamurai {}
+class HamburguesaSamurai: ComidaProtocol {
+    
+}
 
-class SuchiCulichi {}
+class SuchiCulichi: ComidaProtocol {
+    
+}
 
