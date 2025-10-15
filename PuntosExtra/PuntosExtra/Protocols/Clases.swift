@@ -6,5 +6,9 @@
 //
 
 import Foundation
+class TacoLegendario {}
 
+class HamburguesaSamurai {}
+
+class SuchiCulichi {}
 
